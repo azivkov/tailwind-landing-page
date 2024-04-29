@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        mainBg: "#171818",
         extraGray: "#2e2f2f",
       },
       fontSize: {

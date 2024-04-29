@@ -3,7 +3,7 @@ import { MainContent } from "./MainContent";
 
 const LandingPage = () => {
   return (
-    <div className="bg-gray-950 text-white px-10 py-10 font-montserrat">
+    <div className="bg-mainBg text-white px-10 py-10 font-montserrat">
       <Header />
       <MainContent />
     </div>
