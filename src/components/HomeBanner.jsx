@@ -32,7 +32,9 @@ const HomeBanner = () => {
                   />
                 </svg>
                 <span className="text-white mr-2 text-5xl">32k</span>
-                <span className="text-gray-400 self-start">/total users/</span>
+                <span className="text-gray-400 self-start text-xs font-semibold">
+                  /total users/
+                </span>
               </div>
             </div>
             <div className="mt-5 flex items-center">
@@ -52,7 +54,9 @@ const HomeBanner = () => {
               </svg>
               <div className="mr-5">
                 <div className="text-white mr-2 text-5xl">15+</div>
-                <div className="text-gray-400">/currencies/</div>
+                <div className="text-gray-400 font-semibold text-xs">
+                  /currencies/
+                </div>
               </div>
               <div>
                 <svg
@@ -219,7 +223,7 @@ const HomeBanner = () => {
                     index === sliderIndex
                       ? "bg-gray-800 bg-opacity-80"
                       : "bg-gray-200 bg-opacity-50"
-                  } w-10 h-10 rounded-full self-start my-3 ml-3 pl-5 cursor-pointer hover:bg-gray-600 transition ease-in-out duration-300 border-4`}
+                  } w-8 h-8 rounded-full self-start my-3 ml-3 pl-5 cursor-pointer hover:bg-gray-600 transition ease-in-out duration-300 border-4`}
                 ></div>
               );
             })}
@@ -228,10 +232,10 @@ const HomeBanner = () => {
             <div className="col-span-1 text-4xl font-semibold border-r text-white px-5 py-2">
               join our platform
             </div>
-            <div className="col-span-1 text-xl font-semibold self-center px-8">
+            <div className="col-span-1 text-md font-semibold self-center px-8">
               & learn how to start
             </div>
-            <div className="col-span-1 relative">
+            <div className="col-span-1 relative flex">
               <div>
                 <img
                   src="https://i.imgur.com/Ioj1sYB.png"
