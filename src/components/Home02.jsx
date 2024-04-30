@@ -1,11 +1,11 @@
 const Home02 = () => {
   return (
     <div>
-      <div className="flex justify-between mt-24">
-        <div className="w-1/5 font-semibold">
+      <div className="md:flex justify-between mt-24">
+        <div className="sm:w-2/3 md:w-1/5 pr-10 md:pr-0 sm:flex md:flex-col font-semibold">
           <span className="italic font-normal">(02)</span> security <br />{" "}
           measures
-          <div className="text-gray-400 font-normal mt-5">
+          <div className="text-gray-400 font-normal mt-5 sm:px-12 md:px-0">
             we understand that security is a top concern for our users, which is
             why we have implemented{" "}
             <span className="text-white">
@@ -13,7 +13,7 @@ const Home02 = () => {
             </span>{" "}
             to protect your assets
           </div>
-          <div className="mt-28">
+          <div className="hidden sm:block mt-5 md:mt-28">
             <div>
               32k active <br />
               users
@@ -64,18 +64,18 @@ const Home02 = () => {
             </div>
           </div>
         </div>
-        <div className="w-2/3 flex">
-          <div className="w-1/4 mr-4">
+        <div className="mt-5 md:mt-0 md:w-2/3 flex flex-col md:flex-row">
+          <div className="md:w-1/4 flex flex-col justify-center md:justify-start mr-4">
             <img
               src="https://i.imgur.com/hmgpY3t.gif"
-              className="border rounded-3xl overflow-auto max-w-52"
+              className="border rounded-3xl overflow-auto max-w-auto"
             />
             <div className="mt-5 font-semibold cursor-pointer underline">
               read more about our security measures
             </div>
           </div>
-          <div className="w-3/4">
-            <div className="relative">
+          <div className="mt-20 sm:ml-16 md:mt-0 md:ml-0 sm:w-3/4">
+            <div className="hidden sm:block relative">
               <img
                 src="https://i.imgur.com/UKaGBh0.jpeg"
                 className="max-w-auto rounded-3xl"
@@ -86,7 +86,7 @@ const Home02 = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-16 h-16 bg-gray-400 rounded-full p-3 absolute top-24 right-80 opacity-80 hover:bg-gray-950 hover:text-gray-400 hover:border hover:border-gray-400 transition ease-in-out duration-300"
+                className="w-16 h-16 bg-gray-400 rounded-full p-3 opacity-80 cursor-pointer absolute top-12 left-24 md:top-24 md:left-80 hover:bg-gray-950 hover:text-gray-400 hover:border hover:border-gray-400 transition ease-in-out duration-300"
               >
                 <path
                   strokeLinecap="round"
@@ -95,8 +95,8 @@ const Home02 = () => {
                 />
               </svg>{" "}
             </div>
-            <div className="flex mt-4">
-              <div className="w-1/2 bg-extraGray mr-5 p-8 rounded-3xl">
+            <div className="sm:flex mt-4">
+              <div className="sm:w-1/2 bg-extraGray sm:mr-5 p-8 rounded-3xl">
                 <div className="flex justify-between">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -116,8 +116,8 @@ const Home02 = () => {
                     01.
                   </div>
                 </div>
-                <div className="flex mt-5">
-                  <div className="w-3/4 text-gray-200 text-2xl">
+                <div className="md:flex mt-5">
+                  <div className="md:w-3/4 text-gray-200 text-2xl">
                     Upgrade your account to Pro
                     <img
                       src="https://i.imgur.com/ZXkLCh8.png"
@@ -127,7 +127,7 @@ const Home02 = () => {
                       Upgrade now
                     </div>
                   </div>
-                  <div className="w-1/4 self-end">
+                  <div className="mt-3 sm:mt-0 md:w-1/4 self-end">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -145,7 +145,7 @@ const Home02 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-1/2 bg-extraGray mr-5 p-8 rounded-3xl">
+              <div className="sm:w-1/2 mt-5 sm:mt-0 bg-extraGray p-8 rounded-3xl">
                 <div className="flex justify-between">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -166,14 +166,14 @@ const Home02 = () => {
                     02.
                   </div>
                 </div>
-                <div className="flex mt-5">
-                  <div className="w-3/4 text-gray-200 text-2xl">
+                <div className="md:flex mt-5">
+                  <div className="md:w-3/4 text-gray-200 text-2xl">
                     Check account protection
                     <div className="text-gray-400 text-sm font-semibold">
                       Go to settings
                     </div>
                   </div>
-                  <div className="w-1/4 self-end">
+                  <div className="mt-3 sm:mt-0 md:w-1/4 self-end">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

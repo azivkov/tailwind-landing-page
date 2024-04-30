@@ -1,8 +1,8 @@
 const Home01 = () => {
   return (
     <div>
-      <div className="flex justify-between px-4 mt-10">
-        <div className="flex">
+      <div className="md:flex md:justify-between px-4 mt-10">
+        <div className="md:flex">
           <button className="home-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const Home01 = () => {
             <div className="italic">ethereum (eth)</div>
           </button>
         </div>
-        <div className="flex">
+        <div className="md:flex">
           <button className="home-btn">
             <img
               src="https://i.imgur.com/eh08RQ3.png"
@@ -53,12 +53,12 @@ const Home01 = () => {
           </button>
         </div>
       </div>
-      <div className="flex mt-28">
-        <div className="w-1/3 font-semibold">
+      <div className="sm:flex mt-28">
+        <div className="sm:w-1/3 font-semibold">
           <span className="italic font-normal">(01)</span> more about <br /> our
           platform
         </div>
-        <div className="w-1/2 text-4xl text-gray-400 leading-12">
+        <div className="sm:w-1/2 text-xl sm:text-4xl text-gray-400 leading-12">
           Our platform is designed to{" "}
           <span className="text-white">
             be{" "}

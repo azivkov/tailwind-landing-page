@@ -11,7 +11,6 @@ export default {
         xxs: "0.6rem",
       },
       fontFamily: {
-        nunito: ["Nunito"],
         montserrat: ["Montserrat"],
         cormorant: ["Cormorant"],
       },
